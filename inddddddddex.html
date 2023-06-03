@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<h1 class="crook1"><span>Chains</span><span>Dallas</span></h1>
+<div class="gal">	
+	<img src="img/chains pickle.jpeg" onclick="textsound1()">
+	<img src="img/medic bag.jpeg" onclick="textsound2()">
+</div>
+<audio class="sfx1" src="sound/ding-sound-effect_2.mp3" controls></audio src>
+<audio class="sfx2" src="sound/ding-sound-effect_2.mp3" controls></audio src>
+
+</body>
+<script type="text/javascript">
+	let audio1 = document.querySelector(".sfx1");
+	let audio2 = document.querySelector(".sfx2");
+
+	function textsound1(){
+	if (audio1.paused){
+			audio1.play();
+			audio2.pause();
+}
+else {
+	(audio1.pause();
+}
+}
+	function textsound2(){
+	if (audio2.paused){
+			audio1.pause();
+			audio2.play();
+}
+else {
+	(audio2.pause();
+}
+}
+
+</script>
+</html>
